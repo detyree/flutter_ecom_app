@@ -103,7 +103,7 @@ class LoginPage extends StatelessWidget {
                   children: [
                     Text('Not a Member?',
                         style: TextStyle(color: Colors.grey[700])),
-                    SizedBox(width: 4),
+                    const SizedBox(width: 4),
                     const Text(
                       'Register Now!',
                       style: TextStyle(
