@@ -21,12 +21,12 @@ class LoginPage extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const SizedBox(height: 50),
+                const SizedBox(height: 30),
                 const Icon(
                   Icons.lock,
                   size: 100,
                 ),
-                const SizedBox(height: 50),
+                const SizedBox(height: 30),
                 Text(
                   'Welcome back you\'ve been missed!',
                   style: TextStyle(
@@ -61,7 +61,7 @@ class LoginPage extends StatelessWidget {
                 ),
                 const SizedBox(height: 25),
                 MyButton(onTap: signUserIn),
-                const SizedBox(height: 50),
+                const SizedBox(height: 30),
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 25.0),
                   child: Row(
